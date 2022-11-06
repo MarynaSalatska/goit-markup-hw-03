@@ -42,8 +42,8 @@ h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
-} 
-img{
+}
+img {
   display: block;
 }
 .container {
@@ -97,23 +97,22 @@ img{
 .contact {
   color: var(--secondary-text-color);
 }
-.nav{
+.nav {
   display: flex;
   align-items: center;
-  
 }
 .nav-list {
   display: flex;
   margin-left: 93px;
 }
-.auth{
+.auth {
   margin-left: auto;
 }
 .nav-list li:not(:last-child) {
   display: block;
   margin-right: 50px;
 }
-.nav-list li{
+.nav-list li {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -125,7 +124,6 @@ li .link:focus {
 li .link.current {
   color: var(--decoration-text-color);
 }
-
 
 /* main page */
 .studio {
@@ -166,7 +164,6 @@ li .link.current {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-body-color);
-  
 }
 
 .solution-button {
@@ -192,7 +189,7 @@ li .link.current {
   cursor: pointer;
 }
 
-.section-feature{
+.section-feature {
   text-align: center;
   margin-bottom: 94px;
 }
@@ -226,7 +223,7 @@ li .link.current {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align:center;
+  text-align: center;
 }
 .section-feature .section-title {
   position: absolute;
@@ -235,21 +232,21 @@ li .link.current {
   width: 1px;
   height: 1px;
   overflow: hidden;
-  }
+}
 
 ul.list {
-  display: flex; 
+  display: flex;
   column-gap: 30px;
 }
 
-.list li{
+.list li {
   text-align: left;
 }
 
-.items{
+.items {
   display: flex;
 }
-.items .item{
+.items .item {
   margin-right: 30px;
   display: block;
 }
@@ -257,7 +254,7 @@ ul.list {
   margin-right: 0;
 }
 
-.image{
+.image {
   display: flex;
   text-align: center;
   padding-bottom: 94px;
@@ -265,8 +262,7 @@ ul.list {
 .image li:not(:last-child) {
   display: block;
   padding-right: 30px;
-} 
-
+}
 
 .image-title {
   padding-top: 30px;
@@ -300,10 +296,10 @@ ul.list {
   font-style: normal;
   margin-bottom: 20px;
 }
-.footer-items li:not(:last-child){
+.footer-items li:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-items li{
+.footer-items li {
   display: block;
 }
 .footer-link {
@@ -328,18 +324,18 @@ ul.list {
 }
 
 /* portfolio */
-.works h1{
+.works h1 {
   position: absolute;
   left: -10000px;
   top: auto;
   width: 1px;
   height: 1px;
   overflow: hidden;
-  }
+}
 
 .works {
   margin-top: 94px;
-} 
+}
 
 .works-button {
   margin-bottom: 34px;
@@ -348,9 +344,9 @@ ul.list {
   padding-right: 297px;
   gap: 8px;
   /* text-align: center; */
-} 
+}
 
-.works-list{
+.works-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -379,4 +375,3 @@ ul.list {
   line-height: 1.188;
   color: var(--secondary-text-color);
 }
-
