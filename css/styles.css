@@ -303,7 +303,7 @@ ul.list {
 .footer-items li:not(:last-child){
   margin-bottom: 9px;
 }
-..footer-items li{
+.footer-items li{
   display: block;
 }
 .footer-link {
