@@ -87,12 +87,17 @@ img {
 }
 
 .link {
+  display: block;
   text-decoration: none;
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
   font-family: inherit;
   letter-spacing: 0.02em;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
 }
 .contact {
   color: var(--secondary-text-color);
@@ -112,7 +117,7 @@ img {
   display: block;
   margin-right: 50px;
 }
-.nav-list li {
+.nav-list a {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -147,12 +152,11 @@ li .link.current {
 }
 .solution {
   background-color: var(--solution-color);
-  margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .solution .container {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 .solution-title {
   margin-top: 0;
@@ -191,7 +195,11 @@ li .link.current {
 
 .section-feature {
   text-align: center;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list li {
+  width: 270px;
 }
 .list-title {
   margin-top: 0;
@@ -200,6 +208,7 @@ li .link.current {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 .list-text {
   margin-top: 0;
@@ -208,7 +217,7 @@ li .link.current {
   color: var(--secondary-text-color);
 }
 .section.page {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .section.team {
@@ -219,11 +228,15 @@ li .link.current {
 
 .section-title {
   margin-top: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+.description {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .section-feature .section-title {
   position: absolute;
@@ -257,7 +270,6 @@ ul.list {
 .image {
   display: flex;
   text-align: center;
-  padding-bottom: 94px;
 }
 .image li:not(:last-child) {
   display: block;
@@ -265,8 +277,7 @@ ul.list {
 }
 
 .image-title {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -277,7 +288,6 @@ ul.list {
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-text-color);
-  padding-bottom: 30px;
 }
 
 .footer {
@@ -323,7 +333,7 @@ ul.list {
   color: var(--decoration-text-color);
 }
 
-/* portfolio */
+/* ------------------portfolio ==================*/
 .works h1 {
   position: absolute;
   left: -10000px;
@@ -334,16 +344,15 @@ ul.list {
 }
 
 .works {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .works-button {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
-  padding-left: 297px;
-  padding-right: 297px;
   gap: 8px;
-  /* text-align: center; */
+  justify-content: center;
 }
 
 .works-list {
@@ -358,20 +367,22 @@ ul.list {
 .work-link {
   text-decoration: none;
 }
-.work-link > img {
-  padding-bottom: 20px;
-}
+
 .works-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .works-text {
-  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.188;
   color: var(--secondary-text-color);
+}
+
+.description-portfolio {
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
